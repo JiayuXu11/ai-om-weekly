@@ -1,0 +1,95 @@
+{
+  "version": 2,
+  "updated_on": "2026-11-05",
+  "people": [
+    {
+      "id": "max-shen",
+      "name_zh": "沈作军",
+      "name_en": "Zuo-Jun Max Shen",
+      "aliases": [
+        "Zuo-Jun Shen",
+        "Zuo Jun Shen",
+        "Zuojun Shen",
+        "Max Z. J. Shen"
+      ],
+      "identity_urls": [
+        "https://shen.ieor.berkeley.edu/"
+      ],
+      "search_terms": [
+        "\"Zuo-Jun Max Shen\" (\"LLM\" OR \"agent\" OR \"AI\")",
+        "\"沈作军\" (\"大模型\" OR \"智能体\" OR \"工作论文\")"
+      ],
+      "disambiguation": "运营管理/供应链研究者；排除生物机器学习研究者Max W. Shen。"
+    },
+    {
+      "id": "linwei-xin",
+      "name_zh": "辛林威",
+      "name_en": "Linwei Xin",
+      "identity_urls": [
+        "https://xin.engineering.cornell.edu/research/",
+        "https://faculty.chicagobooth.edu/linwei-xin"
+      ],
+      "search_terms": [
+        "\"Linwei Xin\" (\"working paper\" OR \"preprint\" OR \"LLM\" OR \"reinforcement\")",
+        "\"辛林威\" 人工智能 论文"
+      ],
+      "disambiguation": "以姓名、研究方向、官方主页/合作网络确认身份；任职可能变动，不锁死机构。"
+    },
+    {
+      "id": "yijie-peng",
+      "name_zh": "彭一杰",
+      "name_en": "Yijie Peng",
+      "identity_urls": [
+        "https://www.ai.pku.edu.cn/info/1313/1770.htm",
+        "https://www.gsm.pku.edu.cn/jsjjxq.jsp?urltype=tree.TreeTempUrl&wbtreeid=1141&user_id=pengyijie"
+      ],
+      "search_terms": [
+        "\"Yijie Peng\" (\"LLM\" OR \"simulation\" OR \"AI\" OR \"optimization\")",
+        "\"彭一杰\" (\"预印本\" OR \"论文\" OR \"大模型\")"
+      ],
+      "disambiguation": "北京大学光华/仿真优化研究者，已由用户确认中文姓名；排除同名其他领域作者。"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "jd",
+      "name_zh": "京东",
+      "aliases": [
+        "JD.com",
+        "JD Research",
+        "JD Logistics",
+        "JD Technology",
+        "京东探索研究院",
+        "京东物流",
+        "京东科技"
+      ],
+      "search_terms": [
+        "(\"JD.com\" OR \"JD Logistics\") (\"LLM\" OR \"agent\") paper",
+        "京东 大模型 运筹 优化 论文"
+      ]
+    },
+    {
+      "id": "alibaba",
+      "name_zh": "阿里",
+      "aliases": [
+        "Alibaba",
+        "Alibaba Group",
+        "Alibaba Cloud",
+        "DAMO Academy",
+        "Taobao",
+        "Tmall",
+        "Cainiao",
+        "阿里巴巴",
+        "阿里云",
+        "达摩院",
+        "淘天",
+        "菜鸟"
+      ],
+      "search_terms": [
+        "Alibaba (\"operations research\" OR \"supply chain\" OR \"optimization\") (\"LLM\" OR \"agent\")",
+        "阿里 大模型 运营管理 论文"
+      ]
+    }
+  ],
+  "instructions": "每期核查全部五个重点对象，记录入口、候选、日期与未入选原因；不要求五者都有新稿。"
+}

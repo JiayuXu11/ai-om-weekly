@@ -1,0 +1,1177 @@
+{
+  "schema_version": 2,
+  "title": "AI × 运营管理周报",
+  "generated_at": "2026-11-05T11:45:30.144525+00:00",
+  "news_window": {
+    "start": "2026-10-29T00:00:00+08:00",
+    "end": "2026-11-05T00:00:00+08:00"
+  },
+  "paper_window": {
+    "start": "2026-10-06T00:00:00+08:00",
+    "end": "2026-11-05T00:00:00+08:00"
+  },
+  "edition_note": "正式采集版：新闻与应用覆盖2026年10月29日至11月4日；论文覆盖10月6日至11月4日。截止11月5日00:00（香港），不含11月5日当天动态。前四栏10／10／5／5，研究选题2个。",
+  "overview": [
+    "本期关注三个可衔接的变化：AI进入购物、法律与工程执行；算力扩张面临供电与治理约束；经营型Agent的评价开始纳入库存、执行与推理成本。",
+    "热门研究按AlphaXiv公开Likes排序；运营管理研究按作者优先级、问题相关性及新鲜度选入。研究选题来自本期材料，但只是待证明、待查新的候选。"
+  ],
+  "sections": [
+    {
+      "id": "general",
+      "title": "通用新闻",
+      "description": "近7个完整自然日 · 10条。依新鲜度、实质影响与可核实讨论线索编辑排序；未获得统一社交热度，不编造综合分数。",
+      "window_days": 7,
+      "items": [
+        {
+          "id": "pierre",
+          "title": "OpenAI拟收购Pierre，将代码存储与协作基础设施纳入Agent开发栈",
+          "event_date": "2026-11-04",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-04",
+          "summary": [
+            "OpenAI宣布将收购Pierre，补强代码存储、差异查看与协作能力。公告说明Pierre的部分工具已用于Codex，后续整合将围绕代码与Agent协作展开。",
+            "这仍是待完成的收购安排，需满足相应交割条件。值得跟踪的是代码托管、评审与AI执行是否会成为同一开发平台的组成部分，而非把公告理解为已经完成的产品整合。"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI to acquire Pierre",
+              "url": "https://openai.com/index/openai-to-acquire-pierre/",
+              "publisher": "OpenAI",
+              "type": "原始信源",
+              "published_date": "2026-11-04",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "semarak",
+          "title": "AWS在马来西亚推出Semarak AI，面向政府、开发者与社区",
+          "event_date": "2026-11-04",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-04",
+          "summary": [
+            "该计划将AI培训与工具支持延伸至政府部门、软件企业和社区。公告提出政府培训覆盖目标及开发者试点，重点是通过合作伙伴扩大组织采纳。",
+            "培训人数与覆盖规模是计划目标，不能写成已经实现的采用量。页面标题日期为11月3日，正文吉隆坡电头为11月4日；本条按正文公告日期归入本周。"
+          ],
+          "sources": [
+            {
+              "title": "AWS launches Semarak AI Malaysia",
+              "url": "https://press.aboutamazon.com/aws/2026/11/aws-launches-semarak-ai-malaysia-a-national-program-to-bring-ai-tools-to-government-officers-students-and-local-software-companies",
+              "publisher": "AWS",
+              "type": "原始信源",
+              "published_date": "2026-11-04",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "gosh",
+          "title": "GOSH与AWS合作至2030年，推进医疗、研究和医院运营数字化",
+          "event_date": "2026-11-03",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-03",
+          "summary": [
+            "伦敦大奥蒙德街儿童医院与AWS宣布长期合作，覆盖临床服务、研究、教育与运营中的数字化创新。其价值在于把技术试点放入医院持续运行与数据治理的组织框架。",
+            "公告描述合作方向与预期用途，尚不足以证明等待时间、医疗质量或总成本已经改善。后续应跟踪具体项目、评价指标与实际部署范围。"
+          ],
+          "sources": [
+            {
+              "title": "GOSH and AWS collaborate",
+              "url": "https://press.aboutamazon.com/2026/11/gosh-and-amazon-web-services-collaborate-to-drive-digital-innovation-across-care-research-and-education",
+              "publisher": "AWS / GOSH",
+              "type": "原始信源",
+              "published_date": "2026-11-03",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "jill",
+          "title": "OpenAI任命Jill Hazelbaker负责企业公共事务",
+          "event_date": "2026-11-03",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-03",
+          "summary": [
+            "OpenAI宣布Jill Hazelbaker将担任首席企业事务官，负责全球传播与企业定位。她此前在Uber负责相关企业事务工作。",
+            "这是一项组织与治理动态，可作为公司扩大公共沟通能力的信号；公告没有提供可据此判断监管结果或商业表现的证据。"
+          ],
+          "sources": [
+            {
+              "title": "Jill Hazelbaker named Chief Corporate Affairs Officer",
+              "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer/",
+              "publisher": "OpenAI",
+              "type": "原始信源",
+              "published_date": "2026-11-03",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "grid",
+          "title": "OpenAI推出Grid Protectors，拟让未来算力园区参与电网需求响应",
+          "event_date": "2026-11-02",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-02",
+          "summary": [
+            "OpenAI计划与公用事业、监管机构合作，在电网紧张时减少未来园区负荷，并结合现场发电、储能与功率控制。公告以佐治亚州在建园区的灵活用电安排为示例。",
+            "核心变化是把算力负荷的可调节性纳入供电安排；多数园区仍属未来或开发阶段，不能把约定容量写成已实际交付的调峰量。"
+          ],
+          "sources": [
+            {
+              "title": "Introducing the Grid Protectors Program",
+              "url": "https://openai.com/index/grid-protectors-program/",
+              "publisher": "OpenAI",
+              "type": "原始信源",
+              "published_date": "2026-11-02",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "pando",
+          "title": "OpenAI分享Git扩展实践：开发者与Agent共同改变代码基础设施负载",
+          "event_date": "2026-11-02",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-02",
+          "summary": [
+            "OpenAI介绍内部代码基础设施面对工程师与代码Agent共同增长的请求量时，如何扩展Git相关服务。文章将代码访问与协作基础设施视为Agent工作流的重要支撑。",
+            "这是内部工程经验披露，而非面向所有用户的新托管产品。可关注的运营问题是机器生成任务如何改变并发、存储访问与评审队列。"
+          ],
+          "sources": [
+            {
+              "title": "Scaling Git at OpenAI",
+              "url": "https://openai.com/index/scaling-git-at-openai/",
+              "publisher": "OpenAI",
+              "type": "原始信源",
+              "published_date": "2026-11-02",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "suncatcher",
+          "title": "Google轨道TPU原型返回计算结果，太空算力仍处试验阶段",
+          "event_date": "2026-10-30",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-10-30",
+          "summary": [
+            "Google报告Project Suncatcher原型卫星返回TPU计算结果，并展示在轨运行Gemma生成文本的演示。它检验了轨道环境下AI计算的一部分技术链路。",
+            "这不是商业规模的太空数据中心上线。供电、通信、发射与维护等经济性问题，仍不能由一次原型成功推导解决。"
+          ],
+          "sources": [
+            {
+              "title": "Project Suncatcher satellite response",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+              "publisher": "Google Research",
+              "type": "原始信源",
+              "published_date": "2026-10-30",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "amazon",
+          "title": "Amazon三季度业绩显示AWS继续增长，AI需求仍需与整体云业务区分",
+          "event_date": "2026-10-29",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-10-29",
+          "summary": [
+            "Amazon三季度披露AWS销售额约460亿美元、同比增长39%，并讨论AI相关基础设施与服务需求。这里的收入为季度销售额，不能与年化运行规模混用。",
+            "财报可以说明云业务规模与投入方向，但无法单独识别AI对全部增长的因果贡献。阅读时应将订单、资本开支、收入与产能可用时间分别看待。"
+          ],
+          "sources": [
+            {
+              "title": "Amazon Q3 2026 earnings",
+              "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report",
+              "publisher": "Amazon",
+              "type": "原始信源",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "xai",
+          "title": "法院驳回xAI污染案的撤诉动议，案件继续审理",
+          "category": "诉讼与基础设施",
+          "event_date": "2026-10-30",
+          "date_precision": "day",
+          "published_date": "2026-10-30",
+          "date_basis": "具体来源正文或发布日志列明本周日期。",
+          "summary": [
+            "10月30日法院裁定驳回被告在xAI燃气发电设施污染诉讼中的撤诉动议。已读取由 Earthjustice 托管的裁定原文，结论页明确写明动议被拒绝；同时对照原告方声明和法律新闻摘要。",
+            "这是一项程序进展：诉讼可以继续，不等于法院已经就全部污染指控、责任和赔偿作出最终判决。其行业意义是AI算力扩张受到电力取得与地方环境程序共同影响；数据中心建设速度不能只由GPU供给推算。"
+          ],
+          "deep_dive": [],
+          "sources": [
+            {
+              "title": "Order denying motion to dismiss",
+              "url": "https://earthjustice.org/document/xai-denied-motion-to-dismiss-pollution-case",
+              "publisher": "U.S. District Court / Earthjustice托管",
+              "type": "法院裁定原文",
+              "published_date": "2026-10-30",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            },
+            {
+              "title": "Court Denies xAI’s Motion to Dismiss Air Pollution Lawsuit",
+              "url": "https://earthjustice.org/press/2026/court-denies-xais-motion-to-dismiss-air-pollution-lawsuit-against-elon-musks-company",
+              "publisher": "Earthjustice",
+              "type": "原告方声明",
+              "published_date": "2026-10-30",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            },
+            {
+              "title": "xAI must face NAACP lawsuit over data center turbines",
+              "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2545313/xai-must-face-naacp-lawsuit-over-data-center-turbines-us-judge-decides",
+              "publisher": "MLex",
+              "type": "新闻摘要",
+              "published_date": "2026-10-30",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            }
+          ],
+          "heat": "未知：未取得可跨事件比较的本周互动证据。",
+          "scores": {
+            "freshness": 1.815,
+            "heat": null,
+            "impact": 4,
+            "relevance": 4,
+            "total": 3.126
+          },
+          "ranking_reason": "有法院原文可核实，涉及算力扩张的重要外部约束。",
+          "uncertainty": "尚非实体责任终局判决；未做完整案卷法律分析。"
+        },
+        {
+          "id": "fairuse",
+          "title": "OpenAI 本周集中呈现支持fair use的意见，版权案尚无终局结论",
+          "category": "诉讼与商业",
+          "event_date": "2026-10-30",
+          "date_precision": "day",
+          "published_date": "2026-10-30",
+          "date_basis": "具体来源正文或发布日志列明本周日期。",
+          "summary": [
+            "OpenAI 于10月30日发表 Fair use benefits everyone，并在诉讼专题页整理支持其AI训练合理使用立场的外部意见。本期把它记为诉讼相关的当事方公开动作，并参考独立报道核对发布时间。",
+            "需要特别区分：当事方倡议、法庭之友意见和法院判决不是同一回事。专题页还列出较早的裁定与程序材料，本期不将那些旧进展重复包装成新判决。值得持续关注的是版权争议如何影响训练数据授权和议价，但不能从支持意见推导胜诉结果。"
+          ],
+          "deep_dive": [],
+          "sources": [
+            {
+              "title": "Fair use benefits everyone",
+              "url": "https://openai.com/index/fair-use-benefits-everyone/",
+              "publisher": "OpenAI",
+              "type": "被告方博客",
+              "published_date": "2026-10-30",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            },
+            {
+              "title": "OpenAI quotes 20 briefs, US government included, against New York Times",
+              "url": "https://ppc.land/openai-quotes-20-briefs-us-government-included-against-new-york-times/",
+              "publisher": "PPC Land",
+              "type": "独立报道",
+              "published_date": "2026-11-02",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            }
+          ],
+          "heat": "未知：未取得可跨事件比较的本周互动证据。",
+          "scores": {
+            "freshness": 1.815,
+            "heat": null,
+            "impact": 4,
+            "relevance": 4,
+            "total": 3.126
+          },
+          "ranking_reason": "涉及训练数据商业模式，且可区分本周声明与旧有案情。",
+          "uncertainty": "主体材料来自被告方，未逐份核验全部外部意见书。"
+        }
+      ]
+    },
+    {
+      "id": "applications",
+      "title": "AI前沿应用",
+      "description": "近7个完整自然日 · 10条。核查Google、OpenAI和Anthropic，区分正式可用、受限访问、研究原型及未来交付。",
+      "window_days": 7,
+      "items": [
+        {
+          "id": "ucp",
+          "title": "Google将UCP直接结账扩展到加拿大AI Mode与Gemini",
+          "event_date": "2026-11-04",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-04",
+          "summary": [
+            "加拿大用户开始可以在Google的AI购物界面直接向合资格零售商结账，合作方包括lululemon、部分Shopify商家等。UCP负责连接发现、购买及售后环节。",
+            "商家继续作为销售主体；Merchant Center更简化的接入计划在明年扩展，忠诚度奖励等功能仍待后续加入。界面控制权转移并不自动意味着商家责任一并转移。"
+          ],
+          "sources": [
+            {
+              "title": "Agentic shopping in Canada",
+              "url": "https://blog.google/intl/en-ca/products/explore-get-answers/a-new-way-to-shop-introducing-a-more-intuitive-agentic-shopping-experience-for-consumers-and-retailers-in-canada/",
+              "publisher": "Google",
+              "type": "原始信源",
+              "published_date": "2026-11-04",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "images",
+          "title": "Images 2.6上线：生成更快，并扩展GIF与API编辑能力",
+          "event_date": "2026-11-04",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-04",
+          "summary": [
+            "OpenAI在ChatGPT、Codex与API推出Images 2.6，涵盖更快的生成、跨轮编辑一致性与GIF制作。API区分Flare和Sunburst，服务不同速度与质量需求。",
+            "公司称生成速度提高50%；这是官方披露，具体体验仍取决于任务与设置。对营销工作流而言，值得关注的是反复修改及素材复用的成本，而不仅是首次出图速度。"
+          ],
+          "sources": [
+            {
+              "title": "Introducing Images 2.6",
+              "url": "https://openai.com/index/introducing-images-2-6/",
+              "publisher": "OpenAI",
+              "type": "原始信源",
+              "published_date": "2026-11-04",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "daybreak",
+          "title": "Daybreak Red进入AWS GovCloud，面向获批安全用户",
+          "event_date": "2026-11-04",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-04",
+          "summary": [
+            "OpenAI宣布在AWS GovCloud美国东部区域提供Daybreak Red相关能力，面向经批准的安全研究与防御客户。访问涉及OpenAI批准和AWS资源开通。",
+            "这不是普通消费者账户即可使用的功能。组织采纳时，区域、资格和部署安排与模型能力同样决定可用性。"
+          ],
+          "sources": [
+            {
+              "title": "Daybreak Red in AWS GovCloud",
+              "url": "https://openai.com/index/daybreak-red-aws-govcloud/",
+              "publisher": "OpenAI",
+              "type": "原始信源",
+              "published_date": "2026-11-04",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "harvey",
+          "title": "Harvey与Jus Mundi合作，将专业仲裁Agent嵌入法律工作流",
+          "event_date": "2026-11-04",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-04",
+          "summary": [
+            "Jus AI将进入Harvey的Assistant、Agents、Vault与Workflows，把仲裁资料检索与案件文件、撰稿场景连接起来，并提供可回溯的法律资料引用。",
+            "公告称面向双方共同客户的可用性将在年底前实现，需同时具备Harvey与Jus AI订阅。当前是合作与交付计划，不能描述为所有用户已经即时可用。"
+          ],
+          "sources": [
+            {
+              "title": "Agent-to-agent partnership",
+              "url": "https://www.harvey.ai/blog/harvey-and-jus-mundi-announce-an-agent-to-agent-partnership",
+              "publisher": "Harvey / Jus Mundi",
+              "type": "原始信源",
+              "published_date": "2026-11-04",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "engineering",
+          "title": "OpenAI展示CAD到制造工程辅助，仍需工程师检验可制造性",
+          "event_date": "2026-11-03",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-03",
+          "summary": [
+            "OpenAI展示用模型协助机械、电气设计、仿真与图纸制作，并介绍与Chip Ganassi Racing、Mazda等合作探索。内部原型案例覆盖外壳、PCB及软件集成。",
+            "官方同时记录模型未持续满足制造公差、装配与生产限制的问题。它展示的是工程辅助能力与合作试验，不代表无人审核即可完成量产。"
+          ],
+          "sources": [
+            {
+              "title": "Accelerating engineering for the physical world",
+              "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+              "publisher": "OpenAI",
+              "type": "原始信源",
+              "published_date": "2026-11-03",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "flashprove",
+          "title": "Anthropic发布FlashProve：可证明响应来自指定模型的研究原型",
+          "event_date": "2026-11-02",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-02",
+          "summary": [
+            "FlashProve用密码学证明连接模型承诺与输出，使验证者无需取得权重或重新运行模型即可核验来源。团队公开实现、协议说明与Lean形式化材料。",
+            "这是研究原型。披露的400B MoE量化配置证明开销约为直接推理GPU时间的70–95倍；它验证指定计算是否执行，不证明回答内容真实或业务决策最优。"
+          ],
+          "sources": [
+            {
+              "title": "Progress on provable inference for large language models",
+              "url": "https://www.anthropic.com/research/provable-inference",
+              "publisher": "Anthropic",
+              "type": "原始信源",
+              "published_date": "2026-11-02",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": []
+        },
+        {
+          "id": "longcat",
+          "title": "美团 LongCat-2.5 正式上线：视觉能力进入长任务 Agent",
+          "category": "模型与产品",
+          "event_date": "2026-11-02",
+          "date_precision": "day",
+          "published_date": "2026-11-02",
+          "date_basis": "具体来源正文或发布日志列明本周日期。",
+          "summary": [
+            "美团在 API 更新日志中确认 LongCat-2.5 于11月2日上线。本周变化是从9月的 Preview 走向正式版本，结合视觉理解与 Agent 编程，面向视觉编程、设计、3D任务及复杂代码库的多步执行，并列出 Claude Code、Codex 等工具适配。",
+            "值得关注的是模型被放进现有开发工作流的方式，而非单次聊天表现。官方日志能确认上线和定位；本次技术博客读取为空，未据转载补写训练细节、参数规模或性能排名。"
+          ],
+          "deep_dive": [],
+          "sources": [
+            {
+              "title": "LongCat API Platform Change Log",
+              "url": "https://longcat.chat/platform/docs/change-log",
+              "publisher": "LongCat",
+              "type": "官方更新日志",
+              "published_date": "2026-11-02",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            }
+          ],
+          "heat": "未知：未取得可跨事件比较的本周互动证据。",
+          "scores": {
+            "freshness": 3.958,
+            "heat": null,
+            "impact": 4,
+            "relevance": 5,
+            "total": 4.183
+          },
+          "ranking_reason": "官方上线明确、覆盖多种Agent工具，且事件较新。",
+          "uncertainty": "未实际调用API；上线不等于复杂项目可无人监督完成。"
+        },
+        {
+          "id": "canva",
+          "title": "Canva Brush：编辑可操作设计元素，而非只生成一张图",
+          "category": "产品与应用",
+          "event_date": "2026-10-29",
+          "date_precision": "day",
+          "published_date": "2026-10-29",
+          "date_basis": "具体来源正文或发布日志列明本周日期。",
+          "summary": [
+            "Canva 宣布 Brush 视觉语言模型，为 Pro 用户支持的设计编辑提供能力。它可读取设计结构，用执行与视觉反馈循环调整文字、图片和多页版式，输出继续保留可编辑元素。10月30日又出现在 Product Hunt 当日榜中，本期合并为同一事件。",
+            "这一变化值得关注，因为企业内容生产常常需要在品牌、格式和多轮审批约束下修改已有材料。Canva 自报相对上一代设计 Agent 的速度和成本改善；这不是独立用户试验，且部分品牌与附件功能仍在后续计划中。"
+          ],
+          "deep_dive": [],
+          "sources": [
+            {
+              "title": "Introducing Canva Brush, a vision-language model for design",
+              "url": "https://www.canva.com/newsroom/news/canva-brush/",
+              "publisher": "Canva Research",
+              "type": "官方博客",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            },
+            {
+              "title": "Best of Product Hunt: October 30, 2026",
+              "url": "https://www.producthunt.com/leaderboard/daily/2026/10/30",
+              "publisher": "Product Hunt",
+              "type": "当日发布榜",
+              "published_date": "2026-10-30",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            }
+          ],
+          "heat": "Product Hunt 10月30日榜列第4，显示196；只作该站快照，未归一化评分。",
+          "scores": {
+            "freshness": 1.101,
+            "heat": null,
+            "impact": 4,
+            "relevance": 5,
+            "total": 3.04
+          },
+          "ranking_reason": "明确进入设计工具与付费产品，包含可编辑交付这一实质变化。",
+          "uncertainty": "只覆盖官方支持的编辑任务；效率为Canva内部测试结果。"
+        },
+        {
+          "id": "step",
+          "title": "AWS 让 Agent 调用现有 Step Functions 业务流程",
+          "category": "产品与流程",
+          "event_date": "2026-10-29",
+          "date_precision": "day",
+          "published_date": "2026-10-29",
+          "date_basis": "具体来源正文或发布日志列明本周日期。",
+          "summary": [
+            "AWS 宣布通过 Bedrock AgentCore Gateway，将现有 Standard 和 Express 工作流暴露为 Agent 工具。Agent 决定何时调用、传什么输入；Step Functions 按预先定义的步骤执行，例如退款资格核验、审批与记账。",
+            "这类产品改变的是工作分工：自然语言判断负责选择入口，流程引擎负责执行已定义程序。对企业采用而言，可以复用既有流程；收益仍取决于输入正确性、权限配置和异常处置，不能由“步骤顺序固定”推导出全过程无风险。"
+          ],
+          "deep_dive": [],
+          "sources": [
+            {
+              "title": "AWS Step Functions workflows now available as AI agent tools",
+              "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/step-functions-workflows-ai-agent-tools/",
+              "publisher": "AWS",
+              "type": "官方发布公告",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            }
+          ],
+          "heat": "未知：未取得可跨事件比较的本周互动证据。",
+          "scores": {
+            "freshness": 1.101,
+            "heat": null,
+            "impact": 4,
+            "relevance": 5,
+            "total": 3.04
+          },
+          "ranking_reason": "对企业流程接入有直接作用，且官方公告给出明确上线日期。",
+          "uncertainty": "按现有服务区域和标准计费提供；未实测业务集成。"
+        },
+        {
+          "id": "moengage",
+          "title": "MoEngage 案例：400余个内部API如何变成Agent工具",
+          "category": "企业应用",
+          "event_date": "2026-10-29",
+          "date_precision": "day",
+          "published_date": "2026-10-29",
+          "date_basis": "本期按原始案例文章发布日期收录；实际部署或项目开始时间可能早于本周。",
+          "summary": [
+            "AWS 与 MoEngage 联合披露将400余个内部 API 操作接入 AgentCore Gateway 的实现。关键做法是由调用服务注入租户和用户身份，不把身份字段作为模型可修改的工具参数；同时通过按任务检索工具，避免一次塞入完整目录。",
+            "这比“Agent能调API”更具体地展示了落地瓶颈：权限、私网和工具发现往往比新增模型能力更费工。案例中的工程时间节约属于参与方估算，本期将其作为实施经验，而非可跨企业复制的平均收益。"
+          ],
+          "deep_dive": [],
+          "sources": [
+            {
+              "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+              "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway/",
+              "publisher": "AWS / MoEngage",
+              "type": "联合客户案例",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-03T23:07:00+08:00"
+            }
+          ],
+          "heat": "未知：未取得可跨事件比较的本周互动证据。",
+          "scores": {
+            "freshness": 1.101,
+            "heat": null,
+            "impact": 4,
+            "relevance": 5,
+            "total": 3.04
+          },
+          "ranking_reason": "有具体权限设计和工程流程，能支持机制讨论。",
+          "uncertainty": "联合客户案例，缺乏对照组与独立部署审计。"
+        }
+      ]
+    },
+    {
+      "id": "trending",
+      "title": "AI热门研究",
+      "description": "AlphaXiv近30天首发研究 · Likes Top 5。♥为采集时累计公开点赞，非过去30天新增；采集时刻见卡片。原始榜单的滚动窗口与本报告自然日窗口略有差异，入选5篇均在本报告窗口内。",
+      "window_days": 30,
+      "items": [
+        {
+          "id": "paper-2610.31642",
+          "title": "修复Softmax与交叉熵中的数值梯度问题",
+          "original_title": "A Fix for Softmax and Cross-Entropy",
+          "authors": [
+            "Jonathan T. Barron",
+            "Dan Gnanapragasam",
+            "Michael Tschannen"
+          ],
+          "research_type": "预印本",
+          "status": "",
+          "event_date": "2026-10-23",
+          "date_precision": "timestamp",
+          "event_at": "2026-10-23T01:54:56+08:00",
+          "date_basis": "AlphaXiv first_publication_date; original abstract/blog opened.",
+          "summary": [
+            "论文研究常见Softmax与交叉熵实现中的数值问题：模型非常确信某个预测，或学生与教师输出接近时，浮点运算可能产生不准确的梯度。作者给出修改实现，讨论其对训练波动、记忆后泛化及蒸馏稳定性的影响。",
+            "该项改变的是基础训练计算，而不是新增应用功能。此处预览依据原始摘要做简要介绍，尚未复现代码或判断其在大规模训练中的普遍收益。"
+          ],
+          "sources": [
+            {
+              "title": "A Fix for Softmax and Cross-Entropy",
+              "url": "https://arxiv.org/abs/2610.31642",
+              "publisher": "arXiv",
+              "type": "预印本",
+              "published_date": "2026-10-22",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            },
+            {
+              "title": "A Fix for Softmax and Cross-Entropy",
+              "url": "https://www.alphaxiv.org/abs/2610.31642",
+              "publisher": "AlphaXiv",
+              "type": "Likes",
+              "published_date": "2026-10-22",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            }
+          ],
+          "deep_dive": [],
+          "metrics": {
+            "platform": "alphaxiv",
+            "likes": 755,
+            "field": "metrics.public_total_votes",
+            "basis": "current_total_for_recent_papers",
+            "captured_at": "2026-11-05T11:41:23.267804+00:00",
+            "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+            "rank": 1
+          },
+          "uncertainty": "",
+          "paper_id": "2610.31642"
+        },
+        {
+          "id": "paper-2611.weight-space-programming",
+          "title": "大模型直接读写神经网络权重：Weight-Space Programming",
+          "original_title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+          "authors": [
+            "Rikiya Takehi",
+            "Jayden Teoh",
+            "Alex Zhang",
+            "Omar Khattab"
+          ],
+          "research_type": "研究博客/外部研究材料（需核对原文）",
+          "status": "",
+          "event_date": "2026-11-02",
+          "date_precision": "timestamp",
+          "event_at": "2026-11-02T08:00:00+08:00",
+          "date_basis": "AlphaXiv first_publication_date; original abstract/blog opened.",
+          "summary": [
+            "你提到的研究已找到：MIT CSAIL团队在研究博客中展示，通用大模型可以读取、解释或直接修改神经网络权重，部分实验不通过梯度下降，也不训练专用的权重生成器。",
+            "需要区分不同实验的工具和反馈预算，以及小型网络与实际语言模型的规模。它是早期研究博客，不应被写成“已证明可以替代常规模型训练”。原始博客和AlphaXiv条目均列在下方。"
+          ],
+          "sources": [
+            {
+              "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+              "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+              "publisher": "Rikiya Takehi",
+              "type": "研究博客/外部研究材料（需核对原文）",
+              "published_date": "2026-11-02",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            },
+            {
+              "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+              "url": "https://www.alphaxiv.org/abs/2611.weight-space-programming",
+              "publisher": "AlphaXiv",
+              "type": "Likes",
+              "published_date": "2026-11-02",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            }
+          ],
+          "deep_dive": [
+            "方法拆解：这里让LLM直接理解并修改权重，而不是让它生成训练循环。演示覆盖小网络行为识别、控制策略修补和语言模型权重修改。",
+            "解读边界：研究博客提供的是早期案例。判断能否成为通用优化方法，仍要检验任务选择、预算、公平基线与不同初始化的稳健性；不能从少数修补案例推导梯度训练已可替代。"
+          ],
+          "metrics": {
+            "platform": "alphaxiv",
+            "likes": 543,
+            "field": "metrics.public_total_votes",
+            "basis": "current_total_for_recent_papers",
+            "captured_at": "2026-11-05T11:41:23.267804+00:00",
+            "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+            "rank": 2
+          },
+          "uncertainty": "",
+          "paper_id": "2611.weight-space-programming",
+          "code_url": "https://github.com/RikiyaT/lm_understand-logs"
+        },
+        {
+          "id": "paper-2610.39302",
+          "title": "JEPA如何让不同模态的表示对齐？",
+          "original_title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+          "authors": [
+            "Randall Balestriero",
+            "Yann LeCun"
+          ],
+          "research_type": "预印本",
+          "status": "",
+          "event_date": "2026-10-29",
+          "date_precision": "timestamp",
+          "event_at": "2026-10-29T11:49:53+08:00",
+          "date_basis": "AlphaXiv first_publication_date; original abstract/blog opened.",
+          "summary": [
+            "该研究讨论不同模态模型是否会学出相近的世界表示，并从JEPA的正样本视图构造入手给出理论与实验分析。重点不是单纯增大参数，而是用于训练的两个视图是否来自同一场景、保留什么共享信息。",
+            "摘要报告了表示对齐及下游任务实验。理论依赖具体假设，不能直接推出任意语言模型与视觉模型都会自然对齐；完整定理和评测设置留待正式深读。"
+          ],
+          "sources": [
+            {
+              "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+              "url": "https://arxiv.org/abs/2610.39302",
+              "publisher": "arXiv",
+              "type": "预印本",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            },
+            {
+              "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+              "url": "https://www.alphaxiv.org/abs/2610.39302",
+              "publisher": "AlphaXiv",
+              "type": "Likes",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            }
+          ],
+          "deep_dive": [],
+          "metrics": {
+            "platform": "alphaxiv",
+            "likes": 493,
+            "field": "metrics.public_total_votes",
+            "basis": "current_total_for_recent_papers",
+            "captured_at": "2026-11-05T11:41:23.267804+00:00",
+            "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+            "rank": 3
+          },
+          "uncertainty": "",
+          "paper_id": "2610.39302"
+        },
+        {
+          "id": "paper-2610.28480",
+          "title": "SuperMimic：用一个可微世界模型训练人形机器人",
+          "original_title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+          "authors": [
+            "Qiayuan Liao",
+            "Yiyang Shao",
+            "Junfeng Long",
+            "Kevin Zakka",
+            "Roberto Horowitz",
+            "Pieter Abbeel",
+            "Koushil Sreenath"
+          ],
+          "research_type": "预印本",
+          "status": "CoRL 2026 Oral",
+          "event_date": "2026-10-21",
+          "date_precision": "timestamp",
+          "event_at": "2026-10-21T00:29:30+08:00",
+          "date_basis": "AlphaXiv first_publication_date; original abstract/blog opened.",
+          "summary": [
+            "SuperMimic用共享的可微世界模型描述多种动作的动力学，通过想象轨迹为策略提供梯度，以减少人形机器人全身控制的训练成本。论文同时展示仿真中的动作跟踪与实体机器人迁移。",
+            "作者给出明显的计算效率改善，但需要结合硬件、训练数据、比较基线和失败定义理解，不能仅凭GPU小时比值推导一般机器人任务的收益。arXiv页面注明CoRL 2026 Oral。"
+          ],
+          "sources": [
+            {
+              "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+              "url": "https://arxiv.org/abs/2610.28480",
+              "publisher": "arXiv",
+              "type": "预印本",
+              "published_date": "2026-10-20",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            },
+            {
+              "title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+              "url": "https://www.alphaxiv.org/abs/2610.28480",
+              "publisher": "AlphaXiv",
+              "type": "Likes",
+              "published_date": "2026-10-20",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            }
+          ],
+          "deep_dive": [],
+          "metrics": {
+            "platform": "alphaxiv",
+            "likes": 493,
+            "field": "metrics.public_total_votes",
+            "basis": "current_total_for_recent_papers",
+            "captured_at": "2026-11-05T11:41:23.267804+00:00",
+            "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+            "rank": 4
+          },
+          "uncertainty": "",
+          "paper_id": "2610.28480"
+        },
+        {
+          "id": "paper-2610.30136",
+          "title": "世界动作模型加入可复用的程序技能",
+          "original_title": "Agentic World Action Models",
+          "authors": [
+            "Zhuoyang Liu",
+            "Dantong Niu",
+            "Botong Zhang",
+            "Boning Shao",
+            "Jing Wang",
+            "Ruijie Zheng",
+            "Yuvan Sharma",
+            "Runyu Lu",
+            "Jiaming Liu",
+            "Renrui Zhang",
+            "Roei Herzig",
+            "Yutong Bai",
+            "Ken Goldberg",
+            "Danfei Xu",
+            "Yuke Zhu",
+            "Guanzhi Wang",
+            "Linxi \"Jim\" Fan",
+            "Trevor Darrell"
+          ],
+          "research_type": "预印本",
+          "status": "",
+          "event_date": "2026-10-22",
+          "date_precision": "timestamp",
+          "event_at": "2026-10-22T01:59:56+08:00",
+          "date_basis": "AlphaXiv first_publication_date; original abstract/blog opened.",
+          "summary": [
+            "AW-0把代码、未来视频和低层动作建模为相互联系的生成流，尝试把Agent的程序化规划、可复用技能与机器人对物理未来的预测连接起来。论文还提出从机器人和人类视频中整理程序轨迹与技能库的流程。",
+            "评测包括双臂操作任务及相关基线。代码流在系统中究竟是可执行程序还是条件计划，需结合具体实现判断；此预览只按原始摘要概述，不声称复现实验或工业部署。"
+          ],
+          "sources": [
+            {
+              "title": "Agentic World Action Models",
+              "url": "https://arxiv.org/abs/2610.30136",
+              "publisher": "arXiv",
+              "type": "预印本",
+              "published_date": "2026-10-21",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            },
+            {
+              "title": "Agentic World Action Models",
+              "url": "https://www.alphaxiv.org/abs/2610.30136",
+              "publisher": "AlphaXiv",
+              "type": "Likes",
+              "published_date": "2026-10-21",
+              "accessed_at": "2026-11-05T11:15:39.459931+00:00"
+            }
+          ],
+          "deep_dive": [],
+          "metrics": {
+            "platform": "alphaxiv",
+            "likes": 320,
+            "field": "metrics.public_total_votes",
+            "basis": "current_total_for_recent_papers",
+            "captured_at": "2026-11-05T11:41:23.267804+00:00",
+            "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+            "rank": 5
+          },
+          "uncertainty": "",
+          "paper_id": "2610.30136"
+        }
+      ]
+    },
+    {
+      "id": "om",
+      "title": "运营管理 × AI",
+      "description": "近30个完整自然日 · 5篇。先检索重点对象，再扩展其他作者。包含训练资源分配、库存经营、需求预测和工具调度；不把企业新闻当论文。",
+      "window_days": 30,
+      "items": [
+        {
+          "id": "cero",
+          "title": "CERO：把RL后训练的有限Rollout预算作为跨期资源分配问题",
+          "event_date": "2026-10-07",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-10-07",
+          "summary": [
+            "问题：固定总训练预算下，哪些提示应该被选中、何时重访、每轮花多少预算？CERO将整个训练期的累计提示暴露写成凹代理效用，使用在线原始—对偶调度协调准入与花费节奏。",
+            "方法包含提示相关的支持斜率和共享预算价格；对代理分配目标建立路径保证，并在相同生成预算下比较多个模型与数学推理任务。它把OR的资源分配直接用于AI训练，不能把代理目标的理论保证等同于最终推理准确率保证。"
+          ],
+          "sources": [
+            {
+              "title": "CERO: Where and When to Allocate Rollouts for RL Post-Training",
+              "url": "https://arxiv.org/abs/2610.09679",
+              "publisher": "arXiv",
+              "type": "原始信源",
+              "published_date": "2026-10-07",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            },
+            {
+              "title": "CERO full text",
+              "url": "https://arxiv.org/html/2610.09679v1",
+              "publisher": "arXiv",
+              "type": "original",
+              "published_date": "2026-10-07",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": [
+            "方法拆解：总预算同时耦合提示选择与训练轮次。CERO用累计暴露的凹效用表达边际价值递减，以Fenchel表示得到可在线更新的支持斜率，并通过共享预算价格控制花费。",
+            "阅读重点：固定的是每个获准提示的响应组大小，变化的是准入、重访与每轮组数。定理约束代理分配目标；要评估真实训练收益，还需看代理偏差及相同响应预算的消融。"
+          ],
+          "original_title": "CERO: Where and When to Allocate Rollouts for RL Post-Training",
+          "authors": [
+            "Yiming Zong",
+            "Yige Wang",
+            "Xing Hu",
+            "Jiashuo Jiang",
+            "Zuo-Jun Max Shen"
+          ],
+          "research_type": "arXiv公开研究稿",
+          "status": "",
+          "watchlist_matches": [
+            "Zuo-Jun Max Shen"
+          ]
+        },
+        {
+          "id": "autovend",
+          "title": "AutoVend：LLM经营20台售货机，库存与执行成本改变模型排名",
+          "event_date": "2026-10-27",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-10-27",
+          "summary": [
+            "运营设置：一个LLM Agent通过Web界面管理20台售货机，覆盖5类地点、180个模拟日，包含共享仓库、采购提前期、补货费用、过期与经常性成本。绩效是持续经营收益，而非单次对话成功率。",
+            "作者报告5个被测模型中4个未超过规则库存基线；按推理成本调整后，模型排序还会变化。结果来自数据驱动仿真，不是180天真实现场实验。这使库存承诺、跨站点协调与可执行性成为评价Agent的重要维度。"
+          ],
+          "sources": [
+            {
+              "title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+              "url": "https://arxiv.org/abs/2610.36980",
+              "publisher": "arXiv",
+              "type": "原始信源",
+              "published_date": "2026-10-27",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": [],
+          "original_title": "AutoVend: Benchmarking LLM Agents on Long-Horizon Autonomous Vending Operations",
+          "authors": [
+            "Qiming Shi",
+            "Yikun Li",
+            "Beidi Luan",
+            "Rui Sun",
+            "Yan Ma",
+            "Jing Li",
+            "Daxin Jiang",
+            "Zuo Bai"
+          ],
+          "research_type": "arXiv公开研究稿",
+          "status": ""
+        },
+        {
+          "id": "censored",
+          "title": "美团分位数需求预测：同时处理库存约束与促销造成的标签歧义",
+          "event_date": "2026-10-29",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-10-29",
+          "summary": [
+            "零售实际销量可能受库存上限限制，也会受临时促销影响；学习目标却是潜在需求及其分位数。论文构建双重截断观测下的深度分位数学习与评价方法，使预测目标贴近补货决策所需的不确定性。",
+            "原文给出理论、基线比较、库存仿真与在线应用章节；作者单位明确为美团，因此不归为京东或阿里成果。全文标注CIKM ’26会议信息。本条按10月29日arXiv首次公开日期纳入，未在本次逐项复核在线实验数值。"
+          ],
+          "sources": [
+            {
+              "title": "A Deep Learning Framework for Quantile Demand Forecasting in E-commerce with Doubly Censored Data",
+              "url": "https://arxiv.org/abs/2610.40138",
+              "publisher": "arXiv",
+              "type": "原始信源",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            },
+            {
+              "title": "Full text / author affiliations",
+              "url": "https://arxiv.org/html/2610.40138v1",
+              "publisher": "arXiv",
+              "type": "原始信源",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": [],
+          "original_title": "A Deep Learning Framework for Quantile Demand Forecasting in E-commerce with Doubly Censored Data",
+          "authors": [
+            "Ziwen Ye",
+            "Jiawen Wei",
+            "Teng Song",
+            "Chen Chen",
+            "Guangrui Ma"
+          ],
+          "research_type": "arXiv公开研究稿",
+          "status": ""
+        },
+        {
+          "id": "fare",
+          "title": "FARE：按促销与日历因素检索历史片段，再纠正零售预测",
+          "event_date": "2026-10-29",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-10-29",
+          "summary": [
+            "当目标周的因素组合缺少完整历史先例时，FARE分别检索各已知因素的部分匹配，并在固定预算下形成参考；两个门控分别混合因素与形态参考、调节对基础预测的纠正力度。门控在测试时保持固定。",
+            "作者在4个零售数据集、5类基础模型上报告WAPE改进，并包含冻结Chronos-2的对照。运营关联是库存计划的需求输入；预测误差下降仍需通过库存成本、缺货与持有成本检验，不能直接写成利润提升。"
+          ],
+          "sources": [
+            {
+              "title": "FARE: Factor-Aware Retrieval with Error-Guided Fusion for Retail Forecasting",
+              "url": "https://arxiv.org/abs/2610.40160",
+              "publisher": "arXiv",
+              "type": "原始信源",
+              "published_date": "2026-10-29",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": [],
+          "original_title": "FARE: Factor-Aware Retrieval with Error-Guided Fusion for Retail Forecasting",
+          "authors": [
+            "Chenghao Gu",
+            "Zhuokang Shen",
+            "Shenghao Wu",
+            "Tingxuan Zhu",
+            "Weiyi Luo",
+            "Haifeng Tang"
+          ],
+          "research_type": "arXiv公开研究稿",
+          "status": "",
+          "code_url": "https://github.com/HousonGu/FARE"
+        },
+        {
+          "id": "toolsched",
+          "title": "ToolSched：为共享主机上的多个Agent调度工具调用",
+          "event_date": "2026-11-03",
+          "date_precision": "day",
+          "date_basis": "原始公告或arXiv提交记录标明日期：2026-11-03",
+          "summary": [
+            "决策对象是多个Agent发来的Shell命令：在CPU、内存和I/O紧约束下，决定何时与按什么顺序执行，以减少资源争用和失败。系统用Agent申报的资源估计结合实时主机状态，并用纠偏与检查点恢复处理估计误差。",
+            "作者在Terminal Bench报告利用率和吞吐量改善，属于AI基础设施与调度交叉工作。现有证据是系统基准；若用于商业服务，仍需补充等待时间、服务等级与不准确资源申报的激励分析。"
+          ],
+          "sources": [
+            {
+              "title": "ToolSched: Resource-Efficient Tool Scheduling for Shared-Host LLM Agents",
+              "url": "https://arxiv.org/abs/2611.05269",
+              "publisher": "arXiv",
+              "type": "原始信源",
+              "published_date": "2026-11-03",
+              "accessed_at": "2026-11-05T11:45:30.144525+00:00"
+            }
+          ],
+          "deep_dive": [],
+          "original_title": "ToolSched: Resource-Efficient Tool Scheduling for Shared-Host LLM Agents",
+          "authors": [
+            "Shucheng Zou",
+            "Yuhao Gu",
+            "Long Chen",
+            "Zhongchun Zheng",
+            "BinZe Xie",
+            "Xianwei Zhang"
+          ],
+          "research_type": "arXiv公开研究稿",
+          "status": ""
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "title": "研究选题",
+      "description": "基于本期信息提出2个候选问题，面向MS、OR、MSOM及AI顶会研究路径。包含最小模型、相近工作、待验证机制与最低验证方案；目标刊会不代表创新或发表已获确认。",
+      "items": [
+        {
+          "id": "idea-verification",
+          "title": "可验证的模型身份该由谁买单？隐蔽模型路由下的审计与服务契约",
+          "target_venues": [
+            "Management Science",
+            "M&SOM"
+          ],
+          "evidence_ids": [
+            "flashprove",
+            "daybreak"
+          ],
+          "paragraphs": [
+            "触发问题：FlashProve让指定模型的执行变得可验证，却仍有显著成本；企业AI服务又存在高低风险任务与访问约束。采购者是否应逐次验证、抽检，还是购买带证明的分层服务？本题研究经济契约，不重新发明密码协议。",
+            "最小模型：供应商观察任务成本并选择高、低成本模型，客户只观察含噪任务结果；合同决定请求价格、事后随机审计率和可执行赔偿，供应商受有限责任约束。审计必须在输出绑定后随机选择，避免供应商提前知道被检任务后才切换模型。另设验证计算成本与时延约束。",
+            "可能贡献：求解内生替换行为与客户风险异质性下的激励相容合同，比较逐次证明、随机审计与纯结果付费。待验证猜想是：证明更便宜未必让所有客户都选择更高审计率，因为均衡路由与价格也会变化；这一方向若退化为标准昂贵验证模型，则不足以成题。",
+            "查新边界：Are You Getting What You Pay For?及LLM Relay Auditing已研究模型替换检测；FlashProve研究计算来源证明；Proof-Carrying Contracts研究约束执行。拟区别仅在多任务共享供应商、有限责任与内生服务等级的契约结构；目前核对的是原文摘要/技术说明，尚未完成经济学和OM文献全量查新。",
+            "最低验证：先解两类任务、两种模型的单期博弈，给出审计约束及均衡存在条件，并构造与外生替换概率模型不同的比较静态；若区别无法成立就放弃。数值使用公开证明成本作敏感性范围，不把原型开销视为未来商业成本。"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic：FlashProve",
+              "url": "https://www.anthropic.com/research/provable-inference"
+            },
+            {
+              "title": "模型替换审计研究",
+              "url": "https://arxiv.org/abs/2504.04715"
+            },
+            {
+              "title": "LLM Relay Auditing",
+              "url": "https://arxiv.org/abs/2610.37086"
+            },
+            {
+              "title": "Proof-Carrying Contracts",
+              "url": "https://arxiv.org/abs/2610.28484"
+            }
+          ]
+        },
+        {
+          "id": "idea-commitment",
+          "title": "采购承诺之后，还值得让Agent重新思考吗？面向不可撤销动作的计算分配",
+          "target_venues": [
+            "Operations Research",
+            "M&SOM",
+            "NeurIPS / ICML"
+          ],
+          "evidence_ids": [
+            "autovend",
+            "toolsched",
+            "cero"
+          ],
+          "paragraphs": [
+            "触发问题：AutoVend中库存提前期、补货费用与过期会使局部决策改进无法转为净收益；ToolSched和CERO分别说明执行资源与计算预算可以调度。值得研究的并非每一步都选最强模型，而是推理发生在采购承诺之前还是之后。",
+            "最小设置：有限期易腐库存系统，存在在途订单、订单锁定时点与推理时延；决策者可付费请求更高质量的建议，但建议到达时部分订单可能已不可更改。状态含库存、在途、当前承诺和建议年龄，目标是扣除推理成本的经营利润。",
+            "拟方法：用行动可改变的剩余范围估计计算价值，联合决定何时请求推理、何时沿用策略和何时提交订单。先在小状态MDP求精确最优策略，检验能否证明含承诺状态的触发结构；AI路线再学习可行的近似控制器。",
+            "相近工作与区别：Ares等已做自适应推理投入；CERO研究训练预算；AutoVend已将经营与推理成本联合评估。潜在区别是计算时延改变可行动作集、且先前订单形成不可撤销承诺。经典信息价值、延迟控制和切换成本文献仍需系统排查，不能把加入API成本本身算作创新。",
+            "最低验证：相同API预算、相同随机需求路径下，与规则库存、每期LLM、周期调用、一般自适应推理比较；分开报告净利润、缺货、过期、违规动作和建议到达时的可执行率。若去掉订单锁定后优势不变，或只来自更少调用，则核心机制没有得到支持。"
+          ],
+          "sources": [
+            {
+              "title": "AutoVend",
+              "url": "https://arxiv.org/abs/2610.36980"
+            },
+            {
+              "title": "Ares：自适应推理投入",
+              "url": "https://arxiv.org/abs/2603.07915"
+            },
+            {
+              "title": "CERO",
+              "url": "https://arxiv.org/abs/2610.09679"
+            },
+            {
+              "title": "ToolSched",
+              "url": "https://arxiv.org/abs/2611.05269"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    "新闻／应用采用7个完整自然日，研究采用30个完整自然日，两个窗口均截止香港时间2026-11-05 00:00，左闭右开。",
+    "本期入选主要依据官方公告、研究博客、arXiv原始页面；AlphaXiv由公开接口实时采集，保留请求、原始响应与累计公开点赞字段。技术研究博客与预印本分别标注。",
+    "两篇版权/环境诉讼条目与4篇应用条目沿用11月3日已读取的原始来源，并再次按本期窗口核对；来源行保留实际访问时间，不伪装为全部重新抓取。其余本轮新增材料读取原始页面；OM多数为原始摘要级阅读，美团论文另核对全文作者单位。",
+    "SSRN检索发现若干相关稿，但直接正文访问受403限制；未以搜索摘要替代原文入选5篇。辛林威主页本轮直连返回502，检索结果可用于候选发现，不能据此声称完整读过全部最新稿。",
+    "GitHub用于论文代码与公开项目线索；HN、Reddit、X和Product Hunt未取得一致可复核的本期热度快照，故没有虚构点赞、评论量或热度总分，也不声称全网覆盖。Mag7并非每家强制占位。",
+    "研究选题已针对模型替换审计、可证明契约、自适应推理等方向做初步查新；尚未完成经济学、OM和控制文献的系统查新，比较静态与算法收益均为待检验内容。"
+  ],
+  "ideas": [],
+  "watchlist_status": [
+    {
+      "name": "沈作军 / Zuo-Jun Max Shen",
+      "status": "已在原始作者列表核实CERO，10月7日首发，入选。",
+      "url": "https://arxiv.org/abs/2610.09679"
+    },
+    {
+      "name": "辛林威 / Linwei Xin",
+      "status": "检索到近期库存优化SSRN候选；主页直连502、SSRN正文受限。本期未找到同时满足可访问核验及AI关联的优先入选稿，扩展作者补位。",
+      "url": "https://xin.engineering.cornell.edu/research/"
+    },
+    {
+      "name": "彭一杰 / Yijie Peng",
+      "status": "按英文名与近30天检索；命中的2610.26636原始作者实为Yi-Hao Peng，已排除同名误匹配。未据检索缺口断言没有新稿。",
+      "url": "https://arxiv.org/abs/2610.26636"
+    },
+    {
+      "name": "京东 / JD",
+      "status": "定向检索未形成日期与作者单位均可核实的合格入选稿；扩展至其他团队。不把销售场景等同京东署名。",
+      "url": "https://arxiv.org/search/?query=JD.com&searchtype=all"
+    },
+    {
+      "name": "阿里 / Alibaba",
+      "status": "定向检索后未确认足够近30天OM交叉研究；零售双重截断论文全文实际署名美团，已按原单位记录。",
+      "url": "https://arxiv.org/html/2610.40138v1"
+    }
+  ],
+  "edition_type": "full"
+}

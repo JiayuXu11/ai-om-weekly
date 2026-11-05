@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI × 运营管理周报"
+  short_description: "中文五栏周报：新闻10、应用10、热门研究5、OM论文5及候选选题"
+  default_prompt: "使用 $ai-om-weekly 生成中文五栏周报：通用新闻与AI应用近7天各10条；AlphaXiv近30天高赞5篇，显示点赞数；OM与AI近30天论文5篇，优先重点作者，不足扩大检索；研究选题0–3个。显示所有信源链接。"

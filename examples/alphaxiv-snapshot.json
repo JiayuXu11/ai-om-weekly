@@ -1,0 +1,152 @@
+{
+  "captured_at": "2026-11-05T11:41:23.267804+00:00",
+  "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+  "window_start": "2026-10-06T11:41:23.267804+00:00",
+  "window_end": "2026-11-05T11:41:23.267804+00:00",
+  "metric_note": "近30天首发研究的当前累计公开点赞，非30天新增点赞；候选原文仍需逐篇核实。",
+  "candidate_count": 100,
+  "items": [
+    {
+      "paper_id": "2610.31642",
+      "original_title": "A Fix for Softmax and Cross-Entropy",
+      "first_publication_at": "2026-10-22T17:54:56.000Z",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2610.31642",
+      "original_url": "https://arxiv.org/abs/2610.31642",
+      "research_type": "预印本",
+      "authors": [
+        "Jonathan T. Barron",
+        "Dan Gnanapragasam",
+        "Michael Tschannen"
+      ],
+      "abstract": "Standard implementations of softmax, log-softmax, and cross-entropy have two numerical bugs. The first bug, Softmax Collapse, rounds the target logit's gradient to zero if that one logit is much larger than the others, resulting in gradients that no longer sum to zero. The second bug, Softmax Cancellation, occurs when student logits are close to teacher logits, and produces non-zero gradients even when the student and teacher logits are equal. We present simple implementations of log-softmax, softmax, and cross-entropy that fix both bugs. Our fix eliminates the previously observed \"slingshot\" phenomenon, speeds up grokking with weight decay, prevents accuracy collapse without weight decay, stops student networks from drifting away from the teacher during distillation, and shows that after memorization, logit growth is bounded by an equilibrium between weight decay and Adam's $\\epsilon$ hyperparameter.",
+      "github_url": null,
+      "metrics": {
+        "platform": "alphaxiv",
+        "likes": 755,
+        "field": "metrics.public_total_votes",
+        "basis": "current_total_for_recent_papers",
+        "captured_at": "2026-11-05T11:41:23.267804+00:00",
+        "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+        "rank": 1
+      }
+    },
+    {
+      "paper_id": "2611.weight-space-programming",
+      "original_title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+      "first_publication_at": "2026-11-02T00:00:00.000Z",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2611.weight-space-programming",
+      "original_url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "research_type": "研究博客/外部研究材料（需核对原文）",
+      "authors": [
+        "Rikiya Takehi",
+        "Jayden Teoh",
+        "Alex Zhang",
+        "Omar Khattab"
+      ],
+      "abstract": "Frontier LLMs can read raw neural network weights to tell what a network does, and write or edit weights directly to fix or build networks without gradient descent.",
+      "github_url": "https://github.com/RikiyaT/lm_understand-logs",
+      "metrics": {
+        "platform": "alphaxiv",
+        "likes": 543,
+        "field": "metrics.public_total_votes",
+        "basis": "current_total_for_recent_papers",
+        "captured_at": "2026-11-05T11:41:23.267804+00:00",
+        "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+        "rank": 2
+      }
+    },
+    {
+      "paper_id": "2610.39302",
+      "original_title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "first_publication_at": "2026-10-29T03:49:53.000Z",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2610.39302",
+      "original_url": "https://arxiv.org/abs/2610.39302",
+      "research_type": "预印本",
+      "authors": [
+        "Randall Balestriero",
+        "Yann LeCun"
+      ],
+      "abstract": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a \\emph{Platonic Representation Theorem}: Joint-Embedding Predictive Architectures (JEPAs) trained separately on any number of modalities learn the same representation up to one rotation whenever their positive pairs are two observations of one scene--\\emph{good views}--and their misalignment is bounded otherwise. Second, we show that next-token prediction is a JEPA with \\emph{bad views}, parts of a single document, which explains why language models align with vision only through scale. Third, we validate the theory from 145k captions to the texts of 940M web images, and uncover a scaling law of alignment that predicts unseen runs within seed noise. Good views need 42 times fewer training samples than next-token prediction on the same corpus to reach the same alignment, and a 109M-parameter text JEPA aligns with DINOv2 and CLIP's image encoders better than every language model we evaluated, up to 72B parameters, and than CLIP's text encoder: next-token prediction is a remarkably inefficient route to platonic representations. As a showcase, one rotation turns separately trained encoders into an image captioner (CIDEr .838 on COCO). Even that rotation needs no pair: on the latest pair-free benchmark, our text JEPA beats every zero-shot accuracy reported with language models up to 8B parameters, e.g., 64\\% against at most 56\\% top-5 on ImageNet-100. Positive views, and not scale alone, are thus the lever to build platonic representations.",
+      "github_url": null,
+      "metrics": {
+        "platform": "alphaxiv",
+        "likes": 493,
+        "field": "metrics.public_total_votes",
+        "basis": "current_total_for_recent_papers",
+        "captured_at": "2026-11-05T11:41:23.267804+00:00",
+        "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+        "rank": 3
+      }
+    },
+    {
+      "paper_id": "2610.28480",
+      "original_title": "SuperMimic: Scaling Humanoid Whole-Body Control with One Differentiable World Model",
+      "first_publication_at": "2026-10-20T16:29:30.000Z",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2610.28480",
+      "original_url": "https://arxiv.org/abs/2610.28480",
+      "research_type": "预印本",
+      "authors": [
+        "Qiayuan Liao",
+        "Yiyang Shao",
+        "Junfeng Long",
+        "Kevin Zakka",
+        "Roberto Horowitz",
+        "Pieter Abbeel",
+        "Koushil Sreenath"
+      ],
+      "abstract": "Tracking large human-motion datasets has become the dominant route to general, expressive humanoid whole-body control, but scaling across many motions is expensive. Current pipelines use model-free reinforcement learning, either merging per-motion specialists through lossy distillation, or brute-forcing a single policy with cluster-scale compute. SuperMimic amortizes learning across all motions with one differentiable world model of their shared dynamics, fit from logged transitions of a standard rigid-body simulator. The world model and the tracking policy train together in one loop, and backpropagation-through-time over short imagined rollouts gives the policy analytic gradients. Fast imagined rollouts and analytic gradients make policy learning efficient. In 3 hours on a single GPU, SuperMimic surpasses the return of a state-of-the-art motion tracker baseline trained for 7 days on 128 GPUs. It reduces GPU-hours by more than $1000\\times$ and fails on only 25 of 129,514 benchmark motions, versus 179 failures for the baseline. After 9.8 hours on two GPUs, SuperMimic achieves zero failures. From 1 to 264 hours of motion, the world model's prediction error stays stable, and GPU-hours to a target return grow slowly. Our policy transfers to a physical Unitree G1 across diverse and acrobatic motions. SuperMimic removes compute as the bottleneck to scaling humanoid whole-body control, making it practical to measure motion-tracking scaling laws.",
+      "github_url": null,
+      "metrics": {
+        "platform": "alphaxiv",
+        "likes": 493,
+        "field": "metrics.public_total_votes",
+        "basis": "current_total_for_recent_papers",
+        "captured_at": "2026-11-05T11:41:23.267804+00:00",
+        "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+        "rank": 4
+      }
+    },
+    {
+      "paper_id": "2610.30136",
+      "original_title": "Agentic World Action Models",
+      "first_publication_at": "2026-10-21T17:59:56.000Z",
+      "alphaxiv_url": "https://www.alphaxiv.org/abs/2610.30136",
+      "original_url": "https://arxiv.org/abs/2610.30136",
+      "research_type": "预印本",
+      "authors": [
+        "Zhuoyang Liu",
+        "Dantong Niu",
+        "Botong Zhang",
+        "Boning Shao",
+        "Jing Wang",
+        "Ruijie Zheng",
+        "Yuvan Sharma",
+        "Runyu Lu",
+        "Jiaming Liu",
+        "Renrui Zhang",
+        "Roei Herzig",
+        "Yutong Bai",
+        "Ken Goldberg",
+        "Danfei Xu",
+        "Yuke Zhu",
+        "Guanzhi Wang",
+        "Linxi \"Jim\" Fan",
+        "Trevor Darrell"
+      ],
+      "abstract": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. We introduce AW-0, an agentic world action model framework that integrates code-based planning with joint video and action prediction. We jointly model code, future video, and robot actions as three coupled generative streams within a unified mixture-of-transformers architecture. Within this architecture a code expert generates parameterized skill routines and control logic while video and action experts generate future visual states and low-level motor commands. Code serves two complementary roles: it structures multi-step prediction and control within the world model and represents skills as reusable programs for subsequent agentic execution. We further introduce an automated curation pipeline that labels robot and human video trajectories with aligned programs and consolidates recurring routines into reusable skill libraries. Evaluations on RoboTwin 2.0 and physical bimanual manipulation tasks show improved task performance over VLA and WAM baselines, alongside gains in language following, semantic reasoning and robustness, demonstrating that agentic code enables connection between planning, prediction and execution within WAMs.",
+      "github_url": null,
+      "metrics": {
+        "platform": "alphaxiv",
+        "likes": 320,
+        "field": "metrics.public_total_votes",
+        "basis": "current_total_for_recent_papers",
+        "captured_at": "2026-11-05T11:41:23.267804+00:00",
+        "feed_url": "https://www.alphaxiv.org/?sort=Likes&interval=30+Days",
+        "rank": 5
+      }
+    }
+  ],
+  "skipped": [],
+  "request_url": "https://api.alphaxiv.org/papers/v3/feed?pageNum=0&sort=Likes&pageSize=100&interval=30+Days&linkBlogs=true&topics=%5B%5D",
+  "scope": "AlphaXiv首个100项Likes排序响应；保存原始响应供复核"
+}

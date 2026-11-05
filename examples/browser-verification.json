@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "errors": [],
+  "viewport_checks": [
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1425
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "scroll": 753
+    },
+    {
+      "width": 520,
+      "viewport": 520,
+      "scroll": 505
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "scroll": 375
+    },
+    {
+      "width": 320,
+      "viewport": 320,
+      "scroll": 305
+    }
+  ],
+  "tabs": true,
+  "search": true,
+  "escape": true,
+  "source_links_visible": true,
+  "print_all_sections": true
+}
